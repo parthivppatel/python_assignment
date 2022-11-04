@@ -2,10 +2,8 @@
 #  to positive to the new list.[Try using map inside filter]
  
 def convert(num):
-    if(num<0):
-        return -(num)
-    return True
+    return -(num)
 
 ls=[10,-20,40,-30]
-a=filter(convert,map(convert,ls))
+a=filter(lambda x: x>=0,map(convert,ls))
 print(list(a))
