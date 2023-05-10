@@ -6,6 +6,6 @@ def positive(num):
         return True
     return False
 
-ls=["10","20","-10","-20"]
+ls=["10","20","-30","-40"]
 a=filter(positive,ls)
 print(list(a))

@@ -16,6 +16,5 @@ while(i<loop):
    myls.append(int(num))
    i=i+1
 
-a=map(seprate,myls)
-tuple(a)
+a=list(map(seprate,myls))
 print(mydict)
